@@ -516,7 +516,10 @@ int main(){
         }
         goto cusLabel;
     }
-    else if(menuCode==0) return 0;
+    else if(menuCode==0) {
+        cout<<"Goodbye from the system!";
+        return 0;
+    }
     else goto menuLabel;
 }
 
